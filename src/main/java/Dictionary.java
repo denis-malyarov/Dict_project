@@ -3,6 +3,7 @@ import java.util.List;
 public class Dictionary {          // класс словарь
     private static long dictCount;  // количество созданных объектов
     private long id;                // номер словаря
+    private User user;
     private LanguageType languageType;   // язык словаря
     private List<Word> words;   // список слов
 
@@ -13,6 +14,14 @@ public class Dictionary {          // класс словарь
     public Dictionary() {   // Конструктор по умолчанию
         dictCount += 1;
         setId(dictCount);
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public long getId() {  // получить ID
