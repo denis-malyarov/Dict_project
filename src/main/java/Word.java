@@ -1,17 +1,11 @@
 public class Word {
-    static private long wordCount;  // количество слов
     private Long id;     // ID слова
     private String sNative;  // Собственно слово
     private String translation;  // Перевод
     private String transcription; // Транскрипция
 
-    static {
-        wordCount = 0;
-    }
-
-    public Word(String sNative, String translation, String transcription) {  // конструктор слова
-        wordCount += 1;
-        setId(wordCount);
+    public Word(Long id, String sNative, String translation, String transcription) {  // конструктор слов;
+        setId(id);
         setsNative(sNative);
         setTranslation(translation);
         setTranscription(transcription);
@@ -21,7 +15,7 @@ public class Word {
         return id;
     }
 
-    private void setId(Long id) {  // установить ID - метод недоступен вне класса
+    public void setId(Long id) {  // установить ID - метод недоступен вне класса
         this.id = id;
     }
 

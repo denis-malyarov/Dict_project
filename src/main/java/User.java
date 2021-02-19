@@ -7,18 +7,13 @@ public class User {  // класс пользователь
     private String surname;  // фамилия
     private String firstName; // имя
 
-    static {
-        userCount = 0;
-    }
 
     public User() {              // конструктор по умолчанию
-        userCount += 1;
-        this.setId(userCount);
+
     }
 
-    public User(String login, String password, String surname, String firstName) { // конструктор с параметрами
-        userCount += 1;
-        this.setId(userCount);
+    public User(Long id, String login, String password, String surname, String firstName) { // конструктор с параметрами
+        this.setId(id);
         this.setLogin(login);
         this.setPassword(password);
         this.setSurname(surname);
@@ -29,7 +24,7 @@ public class User {  // класс пользователь
         return id;
     }
 
-    private void setId(long id) {  // установить ID - метод недоступен вне класса
+    public void setId(long id) {  // установить ID - метод недоступен вне класса
         this.id = id;
     }
 
