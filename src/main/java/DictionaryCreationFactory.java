@@ -46,13 +46,16 @@ public class DictionaryCreationFactory implements DictionaryReader, DictionaryGe
             login += (char) (65 + (int)Math.random()*26);
             password += (char) (65 + (int)Math.random()*26);
         }
-        dict.setUser(new User(login, password, surnames[(int)Math.random()*7], names[(int)Math.random()*7]));
+        dict.setUser(new User((long)Math.random()*100000,login, password, surnames[(int)Math.random()*7], names[(int)Math.random()*7]));
 
         int lim = (int)Math.random()*5;                      // Сгенерировать список слов
         List<Word> words = new ArrayList<Word>();
         for(int i = 0; i <= lim; i++){
             if (dict.getLanguageType() == LanguageType.DEUTSH) {
-                words.add(new Word(deutshWords[i][0], deutshWords[i][2], deutshWords[i][1]));
+                words.add(new Word((long)(i+1), deutshWords[i][0], deutshWords[i][2], deutshWords[i][1]));
+            }
+            else{
+                words.add( new Word((long)(i+11),englishWords[i][0], englishWords[i][2], englishWords[i][1]));
             }
         }
         dict.setWords(words);
