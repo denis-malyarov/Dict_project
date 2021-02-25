@@ -1,3 +1,6 @@
+import java.io.IOException;
+
 public interface DictionaryReader {
-    public Dictionary read();
+    public Dictionary readJson(String name) throws IOException;
+//    public Dictionary readXML(String name);
 }

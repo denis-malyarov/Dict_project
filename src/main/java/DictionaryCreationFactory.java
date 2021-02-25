@@ -1,3 +1,7 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,10 +19,17 @@ public class DictionaryCreationFactory implements DictionaryReader, DictionaryGe
         return instanse;
     }
 
-    public Dictionary read(){
+    public Dictionary readJson(String name) throws IOException {
         Dictionary dict = new Dictionary();
+        ObjectMapper mapper = new ObjectMapper();
+        dict = mapper.readValue(new File(name), Dictionary.class);
         return dict;
     }
+
+//    public Dictionary readXML(String name){
+//        Dictionary dict = new Dictionary();
+//        return dict;
+//    }
     
     public Dictionary generate(){
         Dictionary dict = new Dictionary();
