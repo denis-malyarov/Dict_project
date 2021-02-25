@@ -1,0 +1,51 @@
+{
+    "id": 1,
+    "user": 
+    {
+        "id": 1,
+        "login": "user1",
+        "password": "password1",
+        "surname": "Ivanov",
+        "firstName": "Ivan"
+          
+    },
+    "LanguageType": ENGLISH,
+    "words": 
+    [
+        {
+            "id": 1,
+            "sNative": "Hello",
+            "translation": "Привет",
+            "transcription": "Хэлло"
+        },
+
+        {
+            "id": 2,
+            "sNative": "Table",
+            "translation": "Стол",
+            "transcription": "Тэйбл"
+        },
+
+        {
+            "id": 3,
+            "sNative": "Window",
+            "translation": "Окно",
+            "transcription": "Виндоу"
+        },
+
+        {
+            "id": 4,
+            "sNative": "Camera",
+            "translation": "Камера",
+            "transcription": "Кэмера"
+        },
+
+        {
+            "id": 5,
+            "sNative": "Big",
+            "translation": "Большой",
+            "transcription": "Биг"
+        }
+    ]
+
+}
