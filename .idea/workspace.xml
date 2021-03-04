@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="236f3fd9-836a-41d8-b160-5a4a4173dfd1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LanguageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LanguageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Dict1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Dict1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DictionaryCreationFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DictionaryCreationFactoryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oO0XGFZcJ8BYWgkCXRqk2kEMvW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.55402297" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DictionaryCreationFactoryTest.readJson_EQ_USER">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictionaryCreationFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloned_dictionary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DictionaryCreationFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictionaryCreationFactoryTest.readJson_EQ_ID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloned_dictionary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DictionaryCreationFactoryTest" />
+      <option name="METHOD_NAME" value="readJson_EQ_ID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictionaryCreationFactoryTest.readJson_EQ_LANGUAGETYPE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloned_dictionary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DictionaryCreationFactoryTest" />
+      <option name="METHOD_NAME" value="readJson_EQ_LANGUAGETYPE" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictionaryCreationFactoryTest.readJson_EQ_USER" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloned_dictionary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DictionaryCreationFactoryTest" />
+      <option name="METHOD_NAME" value="readJson_EQ_USER" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DictionaryCreationFactoryTest.readJson_EQ_USER" />
+        <item itemvalue="JUnit.DictionaryCreationFactoryTest.readJson_EQ_LANGUAGETYPE" />
+        <item itemvalue="JUnit.DictionaryCreationFactoryTest.readJson_EQ_ID" />
+        <item itemvalue="JUnit.DictionaryCreationFactoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="236f3fd9-836a-41d8-b160-5a4a4173dfd1" name="Default Changelist" comment="" />
+      <created>1613142372298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613142372298</updated>
+      <workItem from="1613142381832" duration="5593000" />
+      <workItem from="1613669715310" duration="7298000" />
+      <workItem from="1613686649580" duration="1750000" />
+      <workItem from="1613712068036" duration="755000" />
+      <workItem from="1613712910391" duration="3574000" />
+      <workItem from="1613722118433" duration="300000" />
+      <workItem from="1613722667463" duration="2566000" />
+      <workItem from="1614267104770" duration="2560000" />
+      <workItem from="1614269965256" duration="2096000" />
+      <workItem from="1614273842139" duration="11976000" />
+      <workItem from="1614878812458" duration="7451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

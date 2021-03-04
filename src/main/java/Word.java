@@ -4,6 +4,10 @@ public class Word {
     private String translation;  // Перевод
     private String transcription; // Транскрипция
 
+    public  Word(){
+
+    }
+
     public Word(Long id, String sNative, String translation, String transcription) {  // конструктор слов;
         setId(id);
         setsNative(sNative);
