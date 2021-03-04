@@ -1,1 +1,10 @@
-public enum LanguageType {ENGLISH, DEUTSH}
+import java.io.Serializable;
+
+public enum LanguageType implements Serializable {
+    ENGLISH,
+    DEUTSH;
+
+    public String getStatus() {
+        return this.name();
+    }
+}
