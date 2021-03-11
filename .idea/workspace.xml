@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="236f3fd9-836a-41d8-b160-5a4a4173dfd1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LanguageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LanguageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Dict1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Dict1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DictionaryCreationFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DictionaryCreationFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryCreationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCreationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +60,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DictionaryCreationFactoryTest.readJson_EQ_USER">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DictionaryCreationFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cloned_dictionary" />
       <option name="PACKAGE_NAME" value="" />
@@ -140,7 +126,8 @@
       <workItem from="1614267104770" duration="2560000" />
       <workItem from="1614269965256" duration="2096000" />
       <workItem from="1614273842139" duration="11976000" />
-      <workItem from="1614878812458" duration="7451000" />
+      <workItem from="1614878812458" duration="8147000" />
+      <workItem from="1615494141824" duration="8180000" />
     </task>
     <servers />
   </component>
