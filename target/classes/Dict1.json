@@ -1,50 +1,50 @@
-{
+п»ї{
     "id": 1,
     "user": 
     {
         "id": 1,
-        "login": "user1",
+        "login": "login1",
         "password": "password1",
         "surname": "Ivanov",
         "firstName": "Ivan"
           
     },
-    "LanguageType": ENGLISH,
+    "languageType": "ENGLISH",
     "words": 
     [
         {
             "id": 1,
             "sNative": "Hello",
-            "translation": "Привет",
-            "transcription": "Хэлло"
+            "translation": "РџСЂРёРІРµС‚",
+            "transcription": "РҐСЌР»Р»Рѕ"
         },
 
         {
             "id": 2,
             "sNative": "Table",
-            "translation": "Стол",
-            "transcription": "Тэйбл"
+            "translation": "РЎС‚РѕР»",
+            "transcription": "РўСЌР№Р±Р»"
         },
 
         {
             "id": 3,
             "sNative": "Window",
-            "translation": "Окно",
-            "transcription": "Виндоу"
+            "translation": "РћРєРЅРѕ",
+            "transcription": "Р’РёРЅРґРѕСѓ"
         },
 
         {
             "id": 4,
             "sNative": "Camera",
-            "translation": "Камера",
-            "transcription": "Кэмера"
+            "translation": "РљР°РјРµСЂР°",
+            "transcription": "РљСЌРјРµСЂР°"
         },
 
         {
             "id": 5,
             "sNative": "Big",
-            "translation": "Большой",
-            "transcription": "Биг"
+            "translation": "Р‘РѕР»СЊС€РѕР№",
+            "transcription": "Р‘РёРі"
         }
     ]
 

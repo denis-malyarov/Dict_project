@@ -1,5 +1,9 @@
+package Dictionary;
+
+/**
+ * Класс-пользователь, представляет собой описание пользователя по имени, фамилии логину и паролю
+ */
 public class User {  // класс пользователь
-    private static long userCount; // количество пользователей
 
     private long id;        // id
     private String login;   // логин

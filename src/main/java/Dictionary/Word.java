@@ -1,3 +1,8 @@
+package Dictionary;
+
+/**
+ * Класс-слово, хранит транскрипцию и перевод, а также само слово
+ */
 public class Word {
     private Long id;     // ID слова
     private String sNative;  // Собственно слово
@@ -15,7 +20,7 @@ public class Word {
         setTranscription(transcription);
     }
 
-    public Long getId() {   // получить ID
+    public long getId() {   // получить ID
         return id;
     }
 
