@@ -1,7 +1,6 @@
 package Readers;
 
 import Dictionary.*;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -17,42 +16,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * Класс, позволяющий парсить XML и Json файлы в словарь Dictionary
- */
-public class Dict_Reader implements DictionaryReader {
+public class XML_Reader implements DictReader {
+    private static XML_Reader instanse;
 
-
-    private static Dict_Reader instanse;
-
-    private Dict_Reader(){
+    private XML_Reader() {
 
     }
 
-    public static Dict_Reader getInstance(){    // Реализовани как Singleton
+    public static XML_Reader getInstance() {    // Реализован как Singleton
         if (instanse == null) {
-            instanse = new Dict_Reader();
+            instanse = new XML_Reader();
         }
         return instanse;
     }
 
 
-    public Dictionary readJson(String name) {   // метод читает Json файл
-        Dictionary dict = new Dictionary();
-        ObjectMapper mapper = new ObjectMapper();
-
-        try{
-            dict = mapper.readValue(new File(name), Dictionary.class);
-        }
-        catch(IOException e){
-            e.getMessage();
-        }
-
-        return dict;
-    }
-
-
-    public Dictionary readXML_DOM(String name) {         //метод читает XML-файл c помощью DOM-парсера
+    public Dictionary read(String name) {         //метод читает XML-файл c помощью DOM-парсера
         Dictionary dict = new Dictionary();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
