@@ -1,6 +1,6 @@
-package Generator;
+package SpringProject.Generator;
 
-import Dictionary.Dictionary;
+import SpringProject.Dictionary.Dictionary;
 
 public interface DictionaryGenerator {  // генератор словаря
     public Dictionary generate();       // метод генерации

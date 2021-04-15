@@ -1,7 +1,10 @@
-package Readers;
+package SpringProject.Readers;
 
-import Dictionary.*;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import SpringProject.Dictionary.Dictionary;
+import SpringProject.Dictionary.LanguageType;
+import SpringProject.Dictionary.User;
+import SpringProject.Dictionary.Word;
+import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -16,48 +19,28 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
+public class XML_Reader implements DictReader {
+    private static XML_Reader instanse;
 
-/**
- * Класс, позволяющий парсить XML и Json файлы в словарь Dictionary
- */
-public class Dict_Reader implements DictionaryReader {
-
-
-    private static Dict_Reader instanse;
-
-    private Dict_Reader(){
+    private XML_Reader() {
 
     }
 
-    public static Dict_Reader getInstance(){    // Реализовани как Singleton
+    public static XML_Reader getInstance() {    // Реализован как Singleton
         if (instanse == null) {
-            instanse = new Dict_Reader();
+            instanse = new XML_Reader();
         }
         return instanse;
     }
 
 
-    public Dictionary readJson(String name) {   // метод читает Json файл
-        Dictionary dict = new Dictionary();
-        ObjectMapper mapper = new ObjectMapper();
-
-        try{
-            dict = mapper.readValue(new File(name), Dictionary.class);
-        }
-        catch(IOException e){
-            e.getMessage();
-        }
-
-        return dict;
-    }
-
-
-    public Dictionary readXML_DOM(String name) {         //метод читает XML-файл c помощью DOM-парсера
+    public Dictionary read(String name) {         //метод читает XML-файл c помощью DOM-парсера
         Dictionary dict = new Dictionary();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new File("C:\\Users\\Денис\\cloned_dictionary\\src\\test\\resources\\Dict1.xml"));
+            Document document = builder.parse(new File(name));
             Node xmlDict = document.getDocumentElement();
             NamedNodeMap dictAtt = xmlDict.getAttributes();
             dict.setId(Long.parseLong(dictAtt.getNamedItem("id").getNodeValue()));

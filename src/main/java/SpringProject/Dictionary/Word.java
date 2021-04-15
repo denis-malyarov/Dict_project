@@ -1,4 +1,4 @@
-package Dictionary;
+package SpringProject.Dictionary;
 
 /**
  * Класс-слово, хранит транскрипцию и перевод, а также само слово
