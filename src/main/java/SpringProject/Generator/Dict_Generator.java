@@ -1,6 +1,10 @@
-package Generator;
+package SpringProject.Generator;
 
-import Dictionary.*;
+import SpringProject.Dictionary.Dictionary;
+import SpringProject.Dictionary.LanguageType;
+import SpringProject.Dictionary.User;
+import SpringProject.Dictionary.Word;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +12,7 @@ import java.util.List;
 /**
  * Класс, генерирующий словарь случайным образом из заранее известных данных
  */
+@Component
 public class Dict_Generator implements DictionaryGenerator {
 
     private  static Dict_Generator instanse;

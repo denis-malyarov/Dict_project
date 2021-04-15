@@ -1,6 +1,6 @@
-package Readers;
+package SpringProject.Readers;
 
-import Dictionary.Dictionary;
+import SpringProject.Dictionary.Dictionary;
 
 public interface DictReader {
     public Dictionary read(String name);

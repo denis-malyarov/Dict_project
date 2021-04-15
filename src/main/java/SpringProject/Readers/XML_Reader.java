@@ -1,6 +1,10 @@
-package Readers;
+package SpringProject.Readers;
 
-import Dictionary.*;
+import SpringProject.Dictionary.Dictionary;
+import SpringProject.Dictionary.LanguageType;
+import SpringProject.Dictionary.User;
+import SpringProject.Dictionary.Word;
+import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -15,7 +19,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Component
 public class XML_Reader implements DictReader {
     private static XML_Reader instanse;
 
@@ -36,7 +40,7 @@ public class XML_Reader implements DictReader {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new File("C:\\Users\\Денис\\cloned_dictionary\\src\\test\\resources\\Dict1.xml"));
+            Document document = builder.parse(new File(name));
             Node xmlDict = document.getDocumentElement();
             NamedNodeMap dictAtt = xmlDict.getAttributes();
             dict.setId(Long.parseLong(dictAtt.getNamedItem("id").getNodeValue()));

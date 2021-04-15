@@ -1,11 +1,13 @@
-package Readers;
+package SpringProject.Readers;
 
-import Dictionary.Dictionary;
+import SpringProject.Dictionary.Dictionary;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.IOException;
 
+@Component
 public class Json_Reader implements DictReader {
     private static Json_Reader instanse;
 

@@ -1,4 +1,4 @@
-package Dictionary;
+package SpringProject.Dictionary;
 
 /**
  * Класс-пользователь, представляет собой описание пользователя по имени, фамилии логину и паролю

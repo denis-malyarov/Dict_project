@@ -1,4 +1,4 @@
-package Dictionary;
+package SpringProject.Dictionary;
 
 import java.util.List;
 

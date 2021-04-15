@@ -1,10 +1,14 @@
-import Generator.Dict_Generator;
-import Readers.Json_Reader;
-import Readers.XML_Reader;
+package SpringProject;
+
+import SpringProject.Generator.Dict_Generator;
+import SpringProject.Readers.Json_Reader;
+import SpringProject.Readers.XML_Reader;
+import org.springframework.stereotype.Component;
 
 /**
  * Фабрика генерации словарей включает в себя генератор словаря и парсер Json и XML файлов
  */
+@Component
 public class DictionaryCreationFactory {
     public Dict_Generator generator;
     public Json_Reader json_reader;

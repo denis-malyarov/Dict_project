@@ -1,13 +1,19 @@
-import Dictionary.*;
+import SpringProject.Dictionary.Dictionary;
+import SpringProject.Dictionary.Word;
+import SpringProject.DictionaryCreationFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainClass {
+     public static int c1, c2 = 0;
      public static void main(String[] args){
-         DictionaryCreationFactory factory = DictionaryCreationFactory.getInstance();
-         Dictionary dict1 = factory.json_reader.read("C:\\Users\\Денис\\Desktop\\dictionary\\src\\main\\resources.Dict1.json");
-         Dictionary dict2 = factory.xml_reader.read("C:\\Users\\Денис\\Desktop\\dictionary\\src\\main\\resources.Dict2.xml");
+         ApplicationContext appContext = new AnnotationConfigApplicationContext("C:\\Users\\Денис\\Desktop\\dictionary\\src\\main\\java.SpringProject");
+         //DictionaryCreationFactory factory = appContext.getBean(DictionaryCreationFactory.class);
+         Dictionary dict1 = appContext.getBean(DictionaryCreationFactory.class).json_reader.read("C:\\Users\\Денис\\Desktop\\dictionary\\src\\main\\resources.Dict1.json");
+         Dictionary dict2 = appContext.getBean(DictionaryCreationFactory.class).xml_reader.read("C:\\Users\\Денис\\Desktop\\dictionary\\src\\main\\resources.Dict2.xml");
          Dictionary dict12 = new Dictionary();
 
          try{
@@ -48,8 +54,7 @@ public class MainClass {
          }
 
          List<Word> words = new ArrayList<>();
-         int c1, c2 = 0;
-         
+
          Runnable task1 = new Runnable() {
              @Override
              public void run() {
