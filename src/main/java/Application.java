@@ -1,13 +1,12 @@
-import SpringProject.Dictionary.Dictionary;
-import SpringProject.Dictionary.Word;
-import SpringProject.DictionaryCreationFactory;
+import ru_softlab_Malyarov_dictionary.dictionary.*;
+import ru_softlab_Malyarov_dictionary.DictionaryCreationFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainClass {
+public class Application {
      public static int c1, c2 = 0;
      public static void main(String[] args){
          ApplicationContext appContext = new AnnotationConfigApplicationContext("C:\\Users\\Денис\\Desktop\\dictionary\\src\\main\\java.SpringProject");
