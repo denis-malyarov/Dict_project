@@ -1,4 +1,4 @@
-package SpringProject.Dictionary;
+package ru_softlab_Malyarov_dictionary.dictionary;
 
 /**
  * Класс-пользователь, представляет собой описание пользователя по имени, фамилии логину и паролю

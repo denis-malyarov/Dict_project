@@ -1,9 +1,6 @@
-package SpringProject.Readers;
+package ru_softlab_Malyarov_dictionary.readers;
 
-import SpringProject.Dictionary.Dictionary;
-import SpringProject.Dictionary.LanguageType;
-import SpringProject.Dictionary.User;
-import SpringProject.Dictionary.Word;
+import ru_softlab_Malyarov_dictionary.dictionary.*;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
@@ -21,17 +18,9 @@ import java.util.List;
 
 @Component
 public class XML_Reader implements DictReader {
-    private static XML_Reader instanse;
 
-    private XML_Reader() {
+    public XML_Reader() {
 
-    }
-
-    public static XML_Reader getInstance() {    // Реализован как Singleton
-        if (instanse == null) {
-            instanse = new XML_Reader();
-        }
-        return instanse;
     }
 
 

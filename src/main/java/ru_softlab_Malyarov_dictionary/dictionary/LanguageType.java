@@ -1,5 +1,4 @@
-package SpringProject.Dictionary;
-
+package ru_softlab_Malyarov_dictionary.dictionary;
 import java.io.Serializable;
 
 /**

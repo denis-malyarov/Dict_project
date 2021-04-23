@@ -1,9 +1,6 @@
-package SpringProject.Generator;
+package ru_softlab_Malyarov_dictionary.generator;
+import ru_softlab_Malyarov_dictionary.dictionary.*;
 
-import SpringProject.Dictionary.Dictionary;
-import SpringProject.Dictionary.LanguageType;
-import SpringProject.Dictionary.User;
-import SpringProject.Dictionary.Word;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -15,17 +12,8 @@ import java.util.List;
 @Component
 public class Dict_Generator implements DictionaryGenerator {
 
-    private  static Dict_Generator instanse;
+    public Dict_Generator(){
 
-    private Dict_Generator(){
-
-    }
-
-    public static Dict_Generator getInstance(){          // реализован как Singleton
-        if (instanse == null){
-            instanse = new Dict_Generator();
-        }
-        return instanse;
     }
 
      // собственно генерация словаря

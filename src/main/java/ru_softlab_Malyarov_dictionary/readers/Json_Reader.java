@@ -1,6 +1,6 @@
-package SpringProject.Readers;
+package ru_softlab_Malyarov_dictionary.readers;
 
-import SpringProject.Dictionary.Dictionary;
+import ru_softlab_Malyarov_dictionary.dictionary.Dictionary;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Component;
 
@@ -9,18 +9,11 @@ import java.io.IOException;
 
 @Component
 public class Json_Reader implements DictReader {
-    private static Json_Reader instanse;
 
-    private Json_Reader(){
+    public Json_Reader(){
 
     }
 
-    public static Json_Reader getInstance(){    // Реализовани как Singleton
-        if (instanse == null) {
-            instanse = new Json_Reader();
-        }
-        return instanse;
-    }
 
     public Dictionary read(String name) {   // метод читает Json файл
         Dictionary dict = new Dictionary();
