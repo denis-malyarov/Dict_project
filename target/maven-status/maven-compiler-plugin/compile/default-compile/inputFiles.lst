@@ -1,0 +1,11 @@
+C:\_work\Dictionary\src\main\java\ru\softlab\service\WebAppInitializer.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\controllers\SampleController.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\model\Dictionary.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\controllers\DictionaryController.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\model\Word.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\readers\DictionaryReader.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\model\User.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\ApplicationConfiguration.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\readers\DictionaryReaderType.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\readers\TestDictionaryReader.java
+C:\_work\Dictionary\src\main\java\ru\softlab\service\readers\DictionaryFactory.java

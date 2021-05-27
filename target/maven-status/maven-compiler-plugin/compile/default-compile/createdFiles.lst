@@ -1,0 +1,11 @@
+ru\softlab\service\controllers\SampleController.class
+ru\softlab\service\model\Dictionary.class
+ru\softlab\service\model\Word.class
+ru\softlab\service\readers\TestDictionaryReader.class
+ru\softlab\service\ApplicationConfiguration.class
+ru\softlab\service\model\User.class
+ru\softlab\service\readers\DictionaryReader.class
+ru\softlab\service\WebAppInitializer.class
+ru\softlab\service\controllers\DictionaryController.class
+ru\softlab\service\readers\DictionaryReaderType.class
+ru\softlab\service\readers\DictionaryFactory.class

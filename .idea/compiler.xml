@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloned_dictionary" />
-        <module name="dictionary" />
+        <module name="Dictionary" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Dictionary" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
