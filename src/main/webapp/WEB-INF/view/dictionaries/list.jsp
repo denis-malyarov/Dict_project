@@ -5,6 +5,6 @@
 </head>
 <body>
 <h2>Dictionary</h2>
-${}
+${dictionary.toString()}
 </body>
 </html>

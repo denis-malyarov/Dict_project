@@ -52,12 +52,12 @@ public class Dictionary {          // класс словарь
     @Override
     public String toString(){
         String s = "";
-        s += "dict_id: " + String.valueOf(this.getId()) + "\n";
-        s += "dict_User: " + this.getUser().getFirstName() + " " + this.getUser().getSurname() + "\n";
-        s += "dict_LanguageType: " + this.getLanguageType().getStatus() + "\n";
-        s += "List_Words: \n";
-        for(int i = 0; i <= this.getWords().size(); i++){
-            s += this.getWords().get(i).getsNative() + "   " + this.getWords().get(i).getTranscription() + this.getWords().get(i).getTranslation() + "\n";
+        s += "<h3>   ID: " + String.valueOf(this.getId()) + "</h3>";
+        s += "<h3>   Пользователь: " + this.getUser().getFirstName() + " " + this.getUser().getSurname() + "</h3>";
+        s += "<h3>   Язык: " + this.getLanguageType().getStatus() + "</h3>";
+        s += "<h3>   Список слов: </h3>";
+        for(int i = 0; i < this.getWords().size(); i++){
+            s += "<h4>      Слово №" + String.valueOf(i+1) + ": " + this.getWords().get(i).getsNative() + "   " + this.getWords().get(i).getTranscription() + "   " + this.getWords().get(i).getTranslation() + "<h4>";
         }
         return s;
     }

@@ -24,7 +24,7 @@ public class DictionaryController {
         //ModelAndView modelAndView = new ModelAndView();
         Json_Reader reader = new Json_Reader();
        // modelAndView.setViewName("list");
-        Dictionary dictionary = reader.read("C:\\Users\\Денис\\Desktop\\dictionary\\src\\main\\resources.Dict1.json");
+        Dictionary dictionary = reader.read("C:\\Users\\Денис\\dictionary\\src\\main\\resources\\Dict1.json");
        // modelAndView.addObject("dictionary", dictionary);
         return new ModelAndView("list", "dictionary", dictionary);
     }
